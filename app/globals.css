@@ -1,26 +1,78 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-sans: var(--font-sans, "Outfit", ui-sans-serif, system-ui, sans-serif);
+  --font-heading: var(--font-heading, "Space Grotesk", ui-sans-serif, system-ui, sans-serif);
+  
+  --color-brand-orange: #F97316;
+  --color-brand-blue: #3B82F6;
+  --color-brand-green: #10B981;
+  --color-brand-bg: #FFFDF7;
+  --color-brand-surface: #F5F0E8;
+  --color-brand-text: #1A1A2E;
+  --color-brand-muted: #9CA3AF;
+  --color-brand-border: #E5E7EB;
+
+  --animate-shimmer: shimmer 2s linear infinite;
+  --animate-float: float 3s ease-in-out infinite;
+  --animate-gradientSlide: gradientSlide 4s ease infinite;
+  --animate-meshDrift: meshDrift 20s ease infinite;
+  --animate-scrollUp: scrollUp 40s linear infinite;
+  --animate-scrollDown: scrollDown 40s linear infinite;
+
+  --keyframes-shimmer: {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  };
+  --keyframes-float: {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-12px); }
+  };
+  --keyframes-gradientSlide: {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  };
+  --keyframes-meshDrift: {
+    0%, 100% { background-position: 0% 0%; }
+    33% { background-position: 100% 0%; }
+    66% { background-position: 50% 100%; }
+  };
+  --keyframes-scrollUp: {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50%); }
+  };
+  --keyframes-scrollDown: {
+    0% { transform: translateY(-50%); }
+    100% { transform: translateY(0); }
+  };
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.pause-on-hover:hover {
+  animation-play-state: paused;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.bg-grain {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  mix-blend-mode: multiply;
+}
+
+html {
+  scroll-behavior: auto !important;
+  position: relative;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: var(--font-heading);
 }

@@ -1,0 +1,351 @@
+{
+  "hero": {
+    "enabled": true,
+    "headline": "Designed for <span class='text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-[#FBBF24]'>Ambitious Minds.</span>",
+    "subheadline": "Bridging the gap between degrees and careers. We engineer 1% day-one hires.",
+    "ctaText": "Start Your Yatra",
+    "ctaLink": "/courses",
+    "stat1": {
+      "value": "24/7",
+      "label": "Mentorship"
+    },
+    "stat2": {
+      "value": "100%",
+      "label": "Guaranteed Interviews"
+    }
+  },
+  "courses": {
+    "enabled": true,
+    "items": [
+      {
+        "id": "accelerator",
+        "name": "The Job Hunt Accelerator",
+        "duration": "4 Weeks",
+        "oldPrice": "₹9,999",
+        "price": "2,999",
+        "discount": "70% OFF",
+        "popular": false,
+        "link": "https://topmate.io/yourskill_yatra/1618442",
+        "features": [
+          "Structured Learning program",
+          "Hands-on approach through Assignments",
+          "4 live classes by Industry experts",
+          "4 practice learning workshops",
+          "Self Assessment worksheet/framework",
+          "Peer to Peer learning",
+          "Earn a certificate post final Evaluation"
+        ]
+      },
+      {
+        "id": "launchpad",
+        "name": "Career Launchpad",
+        "duration": "8 Weeks",
+        "oldPrice": "₹11,999",
+        "price": "4,999",
+        "discount": "62% OFF",
+        "popular": true,
+        "link": "https://topmate.io/yourskill_yatra/1618442",
+        "features": [
+          "Everything in Accelerator, plus:",
+          "8 live classes by Industry experts",
+          "8 practice learning workshops",
+          "1-on-1 personalized sessions",
+          "Mock interviews with detailed feedback",
+          "Advanced AI tools for job matching"
+        ]
+      }
+    ]
+  },
+  "faqs": {
+    "enabled": true,
+    "items": [
+      {
+        "question": "Do you offer job assistance?",
+        "answer": "We focus on career readiness and 100% skill assurance. Our data shows that 95% of our rigorously trained freshers secure multiple offers within 3 months of completion. We provide intense referrals, but you must clear the interview."
+      },
+      {
+        "question": "Can I upgrade from the 4-week to the 8-week program?",
+        "answer": "Yes, you can upgrade within the first 2 weeks by simply paying the difference. We highly recommend the 8-week Launchpad for complete mock interview and AI-tool coverage."
+      },
+      {
+        "question": "Are the live sessions recorded if I miss one?",
+        "answer": "Absolutely. Every live session is recorded and uploaded to your student portal within 12 hours. You retain access to all resources and recordings for 1 full year."
+      },
+      {
+        "question": "How do the 1-on-1 personalized sessions work?",
+        "answer": "In the 8-week Launchpad, you get four 45-minute strict 1-on-1 sessions. These are used for personalized resume teardowns, private mock interviews, and specific salary negotiation advice."
+      },
+      {
+        "question": "Will you help me rewrite my Resume?",
+        "answer": "Yes. In Week 2, our ATS experts will physically review your resume line-by-line and help you craft bullet points that highlight college projects as high-tier corporate experience."
+      }
+    ]
+  },
+  "features": {
+    "enabled": true,
+    "items": [
+      {
+        "title": "Corporate Hiring Realities",
+        "desc": "Understand exactly how modern hiring works. We decode the employer mindset, teach you to navigate the hidden job market, and set realistic salary expectations."
+      },
+      {
+        "title": "Resume & ATS Optimization",
+        "desc": "Craft powerful resumes that actually pass the 7-second scan rule. Learn to highlight college projects as professional experience and build strong portfolios."
+      },
+      {
+        "title": "Business Communication",
+        "desc": "Master professional emails, cold outreach for referrals, and confident business writing."
+      },
+      {
+        "title": "Interview & GD Mastery",
+        "desc": "Crack stress interviews and dominate Group Discussions without shouting."
+      }
+    ]
+  },
+  "testimonials": {
+    "enabled": true,
+    "items": [
+      {
+        "name": "Riya Sharma",
+        "role": "Final Year CSE",
+        "initials": "RS",
+        "color": "bg-orange-100 text-brand-orange",
+        "img": "https://i.pravatar.cc/150?u=riya",
+        "badge": "Fresher",
+        "quote": "After YSY's 8-week program, I cracked my campus interview at Accenture. The mock GDs and resume ATS tips were absolute game-changers! The 1-on-1 mentorship fixed my communication gaps permanently."
+      },
+      {
+        "name": "Arjun Patel",
+        "role": "MBA Graduate",
+        "initials": "AP",
+        "color": "bg-blue-100 text-brand-blue",
+        "img": "https://i.pravatar.cc/150?u=arjun",
+        "badge": "Topmate User",
+        "quote": "The AI job hunt module helped me find and apply to 50+ right-fit jobs in a week. I got 3 solid interview calls within 10 days! YSY's frameworks are strictly industry grade."
+      },
+      {
+        "name": "Priya Singh",
+        "role": "BCA Student",
+        "initials": "PS",
+        "color": "bg-emerald-100 text-emerald-600",
+        "img": "https://i.pravatar.cc/150?u=priya",
+        "badge": "Student",
+        "quote": "I was struggling heavily with communication confidence. After 4 weeks, I effectively handled a panel interview for my first corporate job. The trainers are incredibly supportive."
+      },
+      {
+        "name": "Vikram Mehta",
+        "role": "Career Shifter",
+        "initials": "VM",
+        "color": "bg-purple-100 text-purple-600",
+        "img": "https://i.pravatar.cc/150?u=vikram",
+        "badge": "Professional",
+        "quote": "Topmate scheduling was easy, but the real value is the curriculum. YSY gave me the exact LinkedIn strategies I needed to pivot into tech sales without prior experience."
+      },
+      {
+        "name": "Ananya Gupta",
+        "role": "B.Tech IT",
+        "initials": "AG",
+        "color": "bg-pink-100 text-pink-600",
+        "img": "https://i.pravatar.cc/150?u=ananya",
+        "badge": "Fresher",
+        "quote": "YSY didn't just teach me how to interview; they completely rewired my corporate mindset. I negotiated a 20% higher package just by applying their salary frameworks."
+      }
+    ]
+  },
+  "mentors": {
+    "enabled": true,
+    "items": [
+      {
+        "role": "Communication Coach & Public Speaking",
+        "emoji": "🎤",
+        "name": "Rahul Mishra",
+        "color": "bg-orange-50",
+        "border": "border-orange-200",
+        "text": "text-brand-orange"
+      },
+      {
+        "role": "Resume Optimization & LinkedIn Strategist",
+        "emoji": "📄",
+        "name": "Arman Baweja",
+        "color": "bg-blue-50",
+        "border": "border-blue-200",
+        "text": "text-brand-blue"
+      },
+      {
+        "role": "Corporate Trainer – Interview Skills & AI",
+        "emoji": "💼",
+        "name": "Lakshay Sharma",
+        "color": "bg-emerald-50",
+        "border": "border-emerald-200",
+        "text": "text-emerald-600"
+      },
+      {
+        "role": "Platform & Technology Lead",
+        "emoji": "💻",
+        "name": "Tech Head",
+        "color": "bg-indigo-50",
+        "border": "border-indigo-200",
+        "text": "text-indigo-600"
+      }
+    ]
+  },
+  "audiences": {
+    "enabled": true,
+    "items": [
+      {
+        "title": "Freshers & Students",
+        "icon": "🎓",
+        "desc": "Develop job-ready skills and master interviews before campus recruitment starts.",
+        "colorRgb": "59, 130, 246"
+      },
+      {
+        "title": "Working Professionals",
+        "icon": "💼",
+        "desc": "Upskill with AI tools, build networks, and advance your corporate communication.",
+        "colorRgb": "168, 85, 247"
+      },
+      {
+        "title": "1-on-1 Learners",
+        "icon": "👤",
+        "desc": "Highly tailored sessions that adapt strictly to your unique weaknesses and goals.",
+        "colorRgb": "16, 185, 129"
+      },
+      {
+        "title": "Hybrid Learners",
+        "icon": "🖥️",
+        "desc": "A psychological blend of recorded theories and intense live practical training.",
+        "colorRgb": "245, 158, 11"
+      },
+      {
+        "title": "Career Shifters",
+        "icon": "🔄",
+        "desc": "Execute a confident transition with structured resume and interview frameworks.",
+        "colorRgb": "236, 72, 153"
+      },
+      {
+        "title": "Ambitious Dreamers",
+        "icon": "⭐",
+        "desc": "Step into the exact corporate role you want, prepared, confident and highly skilled.",
+        "colorRgb": "6, 182, 212"
+      }
+    ]
+  },
+  "blog": {
+    "enabled": true,
+    "items": [
+      {
+        "slug": "ats-friendly-resume-2025",
+        "title": "How to Write an ATS-Friendly Resume in 2025",
+        "category": "Resumes",
+        "readTime": "5 min read",
+        "date": "Apr 12, 2026",
+        "excerpt": "Over 75% of resumes are rejected by ATS bots before a human ever sees them. Learn the precise formatting and keyword strategies to beat the system.",
+        "content": "In today's highly competitive corporate landscape, getting noticed is half the battle. You might have the perfect degree and the exact skill set required, but if your presentation lacks impact, your application will likely fall through the cracks.\n\nRecruiters spend an average of 7 seconds scanning a resume. The Applicant Tracking Systems (ATS) are even more ruthless, automatically discarding up to 75% of applications before a human even sees them.\n\n* **Keywords are King:** Tailor your content matching the exact phrases used in the job description.\n* **Formatting Matters:** Avoid complex tables or multi-column layouts that confuse parsing software.\n* **Quantify Results:** Never just list duties. Use numbers to show the impact you made (e.g., \"Increased efficiency by 20%\")."
+      },
+      {
+        "slug": "first-impression-7-second-rule",
+        "title": "Why First Impressions Matter (The 7-Second Rule)",
+        "category": "Interviews",
+        "readTime": "4 min read",
+        "date": "Apr 05, 2026",
+        "excerpt": "Recruiters decide whether they like you in the first 7 seconds of an interview. Here is how body language and vocal tonality can make or break you.",
+        "content": "Content coming soon..."
+      },
+      {
+        "slug": "ai-tools-job-seekers-india",
+        "title": "Top AI Tools for Job Seekers in India",
+        "category": "AI & Tech",
+        "readTime": "7 min read",
+        "date": "Mar 28, 2026",
+        "excerpt": "Stop applying manually. Uncover the top AI automation tools that can tailor your cover letters and mass-apply to relevant jobs for you.",
+        "content": "Content coming soon..."
+      },
+      {
+        "slug": "group-discussion-tips",
+        "title": "GD Tips: How to Stand Out Without Shouting",
+        "category": "Group Discussions",
+        "readTime": "6 min read",
+        "date": "Mar 15, 2026",
+        "excerpt": "The biggest myth about Group Discussions is that the loudest person wins. Learn the frameworks to take control of the narrative gracefully.",
+        "content": "Content coming soon..."
+      },
+      {
+        "slug": "linkedin-optimization-recruiters",
+        "title": "How LinkedIn Optimization Gets You Noticed",
+        "category": "Networking",
+        "readTime": "5 min read",
+        "date": "Mar 02, 2026",
+        "excerpt": "Your LinkedIn headline is your digital billboard. Learn how to optimize your profile so recruiters message you with opportunities first.",
+        "content": "Content coming soon..."
+      },
+      {
+        "slug": "tier-3-college-jobs",
+        "title": "The Tier-3 Jobs Problem (And How to Beat It)",
+        "category": "Career Growth",
+        "readTime": "8 min read",
+        "date": "Feb 18, 2026",
+        "excerpt": "Students from Tier-3 colleges have significantly fewer campus recruitment opportunities. Here is the step-by-step off-campus strategy to secure a 10+ LPA package.",
+        "content": "Content coming soon..."
+      }
+    ]
+  },
+  "navbar": {
+    "enabled": true,
+    "links": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About Us",
+        "href": "/about"
+      },
+      {
+        "label": "Our Trainers",
+        "href": "/trainers"
+      },
+      {
+        "label": "Courses",
+        "href": "/courses"
+      },
+      {
+        "label": "Blog",
+        "href": "/blog"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "footer": {
+    "enabled": true,
+    "tagline": "We decode the corporate world for freshers. Through deep tactical preparation, we bridge the gap between degree and career.",
+    "ctaHeadline": "Join the elite 1% of <span class='text-brand-orange'>Day 1</span> hires.",
+    "contact": {
+      "phone": "+91 62910 00136",
+      "email": "support@yourskillyatra.com"
+    }
+  },
+  "aboutHome": {
+    "enabled": true,
+    "title": "Deciphering the <span class='text-brand-orange'>Corporate Code</span>",
+    "description": "We don’t just teach skills; we engineer corporate readiness. Degrees get you past the threshold, but understanding the hidden rules of hiring gets you the offer. We bridge that massive gap with tactical, industry-grade preparation.",
+    "ctaText": "Our Story",
+    "ctaLink": "/about",
+    "kpis": [
+      {
+        "value": "15k+",
+        "label": "Community"
+      },
+      {
+        "value": "30+",
+        "label": "Corporate Partners"
+      },
+      {
+        "value": "95%",
+        "label": "Success Rate"
+      }
+    ]
+  }
+}
