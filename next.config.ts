@@ -1,8 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Production-ready config
-  // allowedDevOrigins and turbopack are dev-only and removed for deployment
+  // Hybrid architecture (Static + Dynamic)
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
 };
 
 export default nextConfig;

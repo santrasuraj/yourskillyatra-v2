@@ -105,11 +105,15 @@ export default function ContactPage() {
               <h3 className="text-3xl font-extrabold text-brand-text mb-8 tracking-tight">Send a Direct Message</h3>
               
               <form 
-                action="mailto:support@yourskillyatra.com" 
-                method="post" 
-                encType="text/plain"
+                action="https://formsubmit.co/santrasuraj228@gmail.com" 
+                method="POST"
                 className="space-y-6"
+                suppressHydrationWarning
               >
+                {/* FormSubmit Configuration */}
+                <input type="hidden" name="_subject" value="New Contact Form Submission - YourSkillYatra" />
+                <input type="hidden" name="_template" value="table" />
+
                 <div className="grid sm:grid-cols-2 gap-6">
                   {/* Floating Label Input */}
                   <div className="relative group">

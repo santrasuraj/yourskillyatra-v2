@@ -118,17 +118,25 @@ export default function Footer({ data }: { data?: any }) {
           {/* Contact Col */}
           <div className="lg:col-span-4 space-y-8 pl-0 lg:pl-10">
             <h4 className="text-sm font-bold text-brand-text uppercase tracking-widest text-center lg:text-left">Stay Updated</h4>
-            <div className="relative group">
+            <form 
+              action="https://formsubmit.co/santrasuraj228@gmail.com" 
+              method="POST"
+              className="relative group"
+              suppressHydrationWarning
+            >
+              <input type="hidden" name="_subject" value="New Newsletter Subscription - YourSkillYatra" />
               <input 
                 type="email" 
+                name="email"
                 placeholder="Enter your email" 
+                required
                 className="w-full h-16 px-6 rounded-2xl bg-brand-surface border border-brand-border focus:border-brand-orange focus:ring-0 outline-none font-medium transition-all group-hover:shadow-lg"
                 suppressHydrationWarning
               />
-              <button className="absolute right-2 top-2 h-12 px-6 bg-brand-text text-white font-bold rounded-xl hover:bg-brand-orange transition-all" suppressHydrationWarning>
+              <button type="submit" className="absolute right-2 top-2 h-12 px-6 bg-brand-text text-white font-bold rounded-xl hover:bg-brand-orange transition-all" suppressHydrationWarning>
                 Join
               </button>
-            </div>
+            </form>
           </div>
 
         </div>
